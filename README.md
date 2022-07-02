@@ -5,6 +5,8 @@
 
 ### Programmatic UI
 
+### SwiftUI
+
 ### Optionals / Force Unwrapping
 
 ### UITableView
@@ -36,3 +38,4 @@
   - UserDefaults are wiped clean if user gets new phone/updates iOS/etc., so a restore button is needed to check if a user has already purchased
   
 ### CoreML
+- Teaching a machine how to do something by training it over and over again
