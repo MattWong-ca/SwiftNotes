@@ -6,6 +6,9 @@
 ### Programmatic UI
 
 ### SwiftUI
+- Drag and drop, live preview, cross platform (iOS/macOS/watchOS)
+- VHZ Stacks
+- Easy to extract views and reuse code (like instantiating objects)
 
 ### Optionals / Force Unwrapping
 
@@ -38,4 +41,12 @@
   - UserDefaults are wiped clean if user gets new phone/updates iOS/etc., so a restore button is needed to check if a user has already purchased
   
 ### CoreML
-- Teaching a machine how to do something by training it over and over again
+- ML: Teaching a machine how to do something by training it over and over again
+  - Model is fed training data
+- Supervised (loads of images with labels, like regression/classification) vs unsupervised
+
+### Design Tools
+- [Flat UI Colors 2](https://flatuicolors.com/)
+- [HEX to UIColor](https://www.uicolor.io/)
+- [Google Fonts](https://fonts.google.com/)
+- [SF Symbols](https://developer.apple.com/sf-symbols/)
