@@ -1,13 +1,21 @@
 # SwiftNotes
 ### Arrays
 - `arrayName.append(newElement: Type)`: adds single element to array
-- `arrayName.append(contentsOf: Sequence)`: adds entirely new array at the end of arrayName
+- `arrayName.append(contentsOf: Sequence)`: adds another array at the end of arrayName
 
 ### Programmatic UI
 
 ### Optionals / Force Unwrapping
 
 ### UITableView
+- Search for Table View in Objects library
+  - Made up of Table View Cells (Prototype Cells)
+  - Need identifier
+  - `UITableViewDataSource` protocol
+  - `UITableViewDelegate`for when user taps on UITableView
+- To improve UI
+  - Create new Cocoa Touch class (subclass of UITableViewCell, also create XIB file)
+  - Use this for Table View Cells' design
 
 ### UILabel
 
