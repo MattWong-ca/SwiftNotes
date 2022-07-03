@@ -45,7 +45,7 @@
 - ML: Teaching a machine how to do something by training it over and over again
   - Model is fed training data
 - Supervised (loads of images with labels, like regression/classification) vs unsupervised (unlabelled, like clustering)
-- Reinforcement learning: +ve and -ve rewards, maximizing chess win chances by examining win probability after each move
+- Reinforcement learning: +ve and -ve rewards, like maximizing chess win chances by examining win probability after each move
 
 ### Design Tools
 - [Flat UI Colors 2](https://flatuicolors.com/)
