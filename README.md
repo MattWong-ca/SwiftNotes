@@ -10,7 +10,7 @@
 - VHZ Stacks
 - Easy to extract views and reuse code (like instantiating objects)
 
-### Optionals / Force Unwrapping
+### Optionals (?) • Force Unwrapping (!) • Optional Binding (`if let`) • Nil Coalescing Operator (??)
 
 ### UITableView
 - Search for Table View in Objects library
@@ -46,6 +46,10 @@
   - Model is fed training data
 - Supervised (loads of images with labels, like regression/classification) vs unsupervised (unlabelled, like clustering)
 - Reinforcement learning: +ve and -ve rewards, like maximizing chess win chances by examining win probability after each move
+
+### ARKit
+- SceneKit (3D), SpriteKit (2D), Metal
+- art.scnassets folder has cool spaceship
 
 ### Design Tools
 - [Flat UI Colors 2](https://flatuicolors.com/)
