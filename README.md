@@ -11,6 +11,17 @@
 - Easy to extract views and reuse code (like instantiating objects)
 
 ### Optionals (?) • Force Unwrapping (!) • Optional Binding (`if let`) • Nil Coalescing Operator (??)
+- Optional: variable that holds either a value or no value (nil)
+  - Ex: `let myOptional: String?`, `myOptional` can either be a string value or nil
+- Force unwrapping: use `!` when confident that the variable will never be nil
+  - Ex: `let text: String = myOptional!`, used because `myOptional` will never be nil
+- Optional Binding: checks to see variable is nil, then procedes if it's not
+  - Ex: `if let safeOptional = myOptional {...}`, `myOptional` is the variable you want to check, and `safeOptional` is the temporary variable you use inside the if-block if it is indeed not nil
+- Nil Coalescing Operator: defaults to value after `??` if variable before it is nil
+  - Ex: `let text: String = myOptional ?? "Default Value"`, `text` will be `myOptional` if it's not nil, otherwise if `myOptional` is nil then `text` will be "Default Value"
+
+### Protocols
+- `ListDiffable` provides methods needed to compare the identity and equality of 2 objects (need to `import IGListKit`) 
 
 ### UITableView
 - Search for Table View in Objects library
