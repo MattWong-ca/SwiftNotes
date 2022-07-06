@@ -20,6 +20,13 @@
 - Nil Coalescing Operator: defaults to value after `??` if variable before it is nil
   - Ex: `let text: String = myOptional ?? "Default Value"`, `text` will be `myOptional` if it's not nil, otherwise if `myOptional` is nil then `text` will be "Default Value"
 
+
+### Guard
+
+### as • as? • as!
+
+### Map • FlatMap • CompactMap
+
 ### Protocols
 - `ListDiffable` provides methods needed to compare the identity and equality of 2 objects (need to `import IGListKit`) 
 
