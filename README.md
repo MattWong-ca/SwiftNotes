@@ -21,9 +21,15 @@
   - Ex: `let text: String = myOptional ?? "Default Value"`, `text` will be `myOptional` if it's not nil, otherwise if `myOptional` is nil then `text` will be "Default Value"
 
 
-### Guard
+### Guard let vs If let
+- `guard let` focuses on ideal path where variable is non-nil
+  - Common at start of methods to verify conditions are correct upfront
+  - Use `if let` if you just want to unwrap some optionals, use `guard let` if you’re specifically checking that conditions are correct before continuing
+  - Variable in `if let` isn't in scope of subsequent `else` statement, need `guard let` for that (used after `else` in `guard let`)
 
 ### as • as? • as!
+
+### Tuple
 
 ### Map • FlatMap • CompactMap
 
