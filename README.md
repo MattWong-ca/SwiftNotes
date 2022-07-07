@@ -2,6 +2,8 @@
 ### Arrays
 - `arrayName.append(newElement: Type)`: adds single element to array
 - `arrayName.append(contentsOf: Sequence)`: adds another array at the end of arrayName
+- `arrayName.first(where: { CONDITION })`: takes first element in array that satisfies the condition
+  - Ex: `let firstNegative = arrayOfNumbers.first(where: { $0 < 0 })`
 
 ### Programmatic UI
 
