@@ -6,6 +6,11 @@
   - Ex: `let firstNegative = arrayOfNumbers.first(where: { $0 < 0 })`
 
 ### Programmatic UI
+- Auto Layout ([cheat sheet](https://www.hackingwithswift.com/articles/140/the-auto-layout-cheat-sheet))
+  - Anchors: efficient to pass them as array to activate/deactivate (`NSLayoutConstraint.activate([...])` or `NSLayoutConstraint.deactivate([...])`
+    - Ex: `leadingAnchor`, `trailingAnchor`, `topAnchor`, `bottomAnchor`
+  - For `trailingAnchor` and `bottomAnchor`, constant needs to be -ve
+    - Ex: `viewName.bottomAnchor.constraint(equalTo: parentView.bottomAnchor, constant: -10)`
 
 ### SwiftUI
 - Drag and drop, live preview, cross platform (iOS/macOS/watchOS)
