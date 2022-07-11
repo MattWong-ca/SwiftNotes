@@ -38,7 +38,7 @@
 
 ### Tuple
 - Data structure that holds a group of values (can be different types)
-- Ex: `let product = (product: "MacBook", price: 1099.99)`, to get "MacBook" you do `product.0`/`product.name` and to get 1099.99 you do `product.1`/`product.price`
+- Ex: `let product = (name: "MacBook", price: 1099.99)`, to get "MacBook" you do `product.0`/`product.name` and to get 1099.99 you do `product.1`/`product.price`
 
 ### Map • FlatMap • CompactMap
 
