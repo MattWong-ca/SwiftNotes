@@ -41,6 +41,9 @@
 - Ex: `let product = (name: "MacBook", price: 1099.99)`, to get "MacBook" you do `product.0`/`product.name` and to get 1099.99 you do `product.1`/`product.price`
 
 ### Map • FlatMap • CompactMap
+- Map: method that can transform a sequence of elements
+  - Ex: `let strings = ["one", "two", "three"]`, `let ints = strings.map { $0.count }` would return `[3,3,5]`
+  - Can also use `mapValues()` for dictionaries to transform dictionary values (returns a dictionary)
 
 ### Protocols
 - `ListDiffable` provides methods needed to compare the identity and equality of 2 objects (need to `import IGListKit`) 
