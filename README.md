@@ -27,7 +27,6 @@
 - Nil Coalescing Operator: defaults to value after `??` if variable before it is nil
   - Ex: `let text: String = myOptional ?? "Default Value"`, `text` will be `myOptional` if it's not nil, otherwise if `myOptional` is nil then `text` will be "Default Value"
 
-
 ### Guard let vs If let
 - `guard let` focuses on ideal path where variable is non-nil
   - Common at start of methods to verify conditions are correct upfront
@@ -61,6 +60,19 @@
 ### UILabel
 
 ### Delegates
+
+### Model-View-Controller (MVC)
+- Model: stores data, View: displays data, Controller: responds to user + manipulates model
+- User uses controller, controller manipulates model, model sends data to view, view renders itself to user
+- Advantages
+  - Well-known, separate responsibilities are clear, data flow is clear
+- Disadvantages
+  - Controller ends up being huge, blurred separation of concerns, hard to test, leads to small views/models
+
+### Model-View-Presenter (MVP)
+- Model stores data that'll be displayed to user, View stores passive UI elements that forward user interaction, Presenter reads data from model + displays it in views
+
+### Model-View-ViewModel (MVVM)
 
 ### In-App Purchases
 - 30% transaction fee
