@@ -5,6 +5,9 @@
 - `arrayName.first(where: { CONDITION })`: takes first element in array that satisfies the condition
   - Ex: `let firstNegative = arrayOfNumbers.first(where: { $0 < 0 })`
 
+### Functions
+- Functions can have [default parameters](https://www.hackingwithswift.com/sixty/5/6/default-parameters)
+
 ### Programmatic UI
 - Auto Layout ([cheat sheet](https://www.hackingwithswift.com/articles/140/the-auto-layout-cheat-sheet))
   - Anchors: efficient to pass them as array to activate/deactivate (`NSLayoutConstraint.activate([...])` or `NSLayoutConstraint.deactivate([...])`
