@@ -76,6 +76,7 @@
 - Model stores data that'll be displayed to user, View stores passive UI elements that forward user interaction, Presenter reads data from model + displays it in views
 
 ### Model-View-ViewModel (MVVM)
+- [Stack Overflow](https://stackoverflow.com/questions/5421874/basic-concepts-of-mvvm-what-should-a-viewmodel-do) definition
 
 ### In-App Purchases
 - 30% transaction fee
