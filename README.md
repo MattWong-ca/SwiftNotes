@@ -5,6 +5,12 @@
 - `arrayName.first(where: { CONDITION })`: takes first element in array that satisfies the condition
   - Ex: `let firstNegative = arrayOfNumbers.first(where: { $0 < 0 })`
 
+### Closures
+- Basically anonymous functions
+- Code before `in` is like a function's parameters, code after is like a function's body
+  - Can ignore `in` and `() -> ()` if there's no parameters
+- `$0` refers to 1st parameter, `$1` refers to 2nd parameter, and so on 
+
 ### Functions
 - Functions can have [default parameters](https://www.hackingwithswift.com/sixty/5/6/default-parameters)
 
