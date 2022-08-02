@@ -1,4 +1,4 @@
-# SwiftNotes
+# SwiftNotes 📱
 ### Arrays
 - `arrayName.append(newElement: Type)`: adds single element to array
 - `arrayName.append(contentsOf: Sequence)`: adds another array at the end of arrayName
