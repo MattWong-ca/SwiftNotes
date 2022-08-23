@@ -114,3 +114,10 @@
 - [HEX to UIColor](https://www.uicolor.io/)
 - [Google Fonts](https://fonts.google.com/)
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
+
+### Open Source Libraries
+- [IGListKit](https://github.com/Instagram/IGListKit)
+- [Alamofire](https://github.com/Alamofire/Alamofire)
+- [Lottie](https://github.com/airbnb/lottie-ios)
+- [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
+- [SwiftLint](https://github.com/realm/SwiftLint)
