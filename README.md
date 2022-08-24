@@ -20,6 +20,7 @@
     - Ex: `leadingAnchor`, `trailingAnchor`, `topAnchor`, `bottomAnchor`
   - For `trailingAnchor` and `bottomAnchor`, constant needs to be -ve
     - Ex: `viewName.bottomAnchor.constraint(equalTo: parentView.bottomAnchor, constant: -10)`
+- [Content Hugging Priorities and Compression Resistance Priorities](https://medium.com/@dineshk1389/content-hugging-and-compression-resistance-in-ios-35a0e8f19118)
 
 ### SwiftUI
 - Drag and drop, live preview, cross platform (iOS/macOS/watchOS)
@@ -84,6 +85,10 @@
 ### Model-View-ViewModel (MVVM)
 - [Stack Overflow](https://stackoverflow.com/questions/5421874/basic-concepts-of-mvvm-what-should-a-viewmodel-do) definition
 
+
+### Coordinator
+- [Swift Coordinator Design Pattern (iOS, Xcode 12, 2022) - iOS Design Patterns](https://www.youtube.com/watch?v=SAZzcKvOvAE)
+
 ### In-App Purchases
 - 30% transaction fee
 - Tip: make app free to download and give user 80% of full functionality of app, then use paywall (in-app purchases) for advanced functionality like removing ads/premium features/etc.
@@ -121,3 +126,6 @@
 - [Lottie](https://github.com/airbnb/lottie-ios)
 - [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
 - [SwiftLint](https://github.com/realm/SwiftLint)
+
+### Developer Tools
+- [Tuple - Pair Programming](https://tuple.app/pair-programming-guide/antipatterns)
