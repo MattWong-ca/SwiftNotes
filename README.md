@@ -8,11 +8,20 @@
 ### Closures
 - Basically anonymous functions
 - Code before `in` is like a function's parameters, code after is like a function's body
-  - Can ignore `in` and `() -> ()` if there's no parameters
+  - Can ignore `in` and `() -> ()` if there's no parameters (remove everything before `in`)
 - `$0` refers to 1st parameter, `$1` refers to 2nd parameter, and so on 
+- Swift can infer type
+- Returning closures
+  - `func returnClosure() -> ((Int, Int) -> Int) { return {$0 + $1} }`
+  - Call: `let varName = returnClosure()`, and then `varName(5,5)`
+- Trailing closure
+  - If closure is last parameter in a func being called, can close off func like this: `funcName(int: 100) { $0 * 2 }`
 
 ### Functions
 - Functions can have [default parameters](https://www.hackingwithswift.com/sixty/5/6/default-parameters)
+
+### Lazy
+- Only uses value set for var when it's needed
 
 ### Programmatic UI
 - Auto Layout ([cheat sheet](https://www.hackingwithswift.com/articles/140/the-auto-layout-cheat-sheet))
@@ -129,3 +138,7 @@
 
 ### Developer Tools
 - [Tuple - Pair Programming](https://tuple.app/pair-programming-guide/antipatterns)
+
+### To Do
+- Filter
+- Reduce
